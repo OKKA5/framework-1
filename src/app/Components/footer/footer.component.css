@@ -1,0 +1,8 @@
+p{
+    position: relative;
+    top: 100%;
+}
+ul li i{
+    border: 1px solid white;
+    border-radius: 50%;
+}

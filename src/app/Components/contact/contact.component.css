@@ -1,0 +1,41 @@
+.m-vh-650{
+    min-height: 650px;
+}
+.w-fit{
+    width:fit-content;
+}
+div .i::before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 35%;
+    height: 5px;
+    width: 100px;
+    transform: translate(-50%);
+    background-color: rgb(62, 62, 62);
+}
+div .i::after {
+    content: "";
+    position: absolute;
+    left: 80px;
+    bottom: 35%;
+    height: 5px;
+    width: 100px;
+    transform: translate(-50%);
+    background-color: rgb(62, 62, 62);
+}
+div .i{
+    position: relative;
+}
+.contact{
+    margin-top: 122px;
+}
+.form div{
+    position: relative;
+}
+.form div p{
+    position: absolute;
+    z-index: -999;
+    top: 0;
+    transition:top 0.5s;
+}
